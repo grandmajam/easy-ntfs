@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest something Easy NTFS could do.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: What would it help you with?
+    validations:
+      required: true

@@ -1,0 +1,59 @@
+name: Bug report
+description: Something in Easy NTFS does not work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Do not post your license key, purchase email or full logs.
+        If your report needs logs or personal details, email grandmajam.factory@gmail.com instead.
+        Questions about your license, payment or refunds are handled by email, not in Issues.
+  - type: input
+    id: app-version
+    attributes:
+      label: Easy NTFS version
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "15.6"
+    validations:
+      required: true
+  - type: input
+    id: mac-model
+    attributes:
+      label: Mac model
+      placeholder: "MacBook Air (M2, 2022)"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: What did you do?
+      placeholder: |
+        1. Connect an NTFS drive.
+        2. Copy a folder to it in Finder.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: Exact error message
+      description: Copy the wording you see. Remove any personal details first.
+      render: text
