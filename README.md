@@ -21,7 +21,7 @@ Move Easy NTFS to Applications and open it. The app guides you through enabling 
 
 - The full app is free for 7 days. No credit card and no automatic charge.
 - Internet access is needed to start the trial. Reinstalling does not start a new trial.
-- After the trial: €15, one-time purchase. Applicable tax is added at checkout. The final amount and any local-currency conversion are shown before you pay.
+- After the trial: €15, one-time purchase. VAT included where applicable. Any local-currency conversion is shown before you pay.
 - Lifetime license for up to 5 Macs. All future updates included. No subscription.
 - You can free up an activation in [My license](https://easy-ntfs.com/license) when you change computers.
 
